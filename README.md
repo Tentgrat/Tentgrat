@@ -13,7 +13,7 @@ Axis For Termux, dor sytem injection quota free with scrapper AXISnet.
     ```
     
     ```
-    git clone https://github.com/lycoxz/AxisForTermux.git
+    git clone https://github.com/Tentgrat/Tentgrat
     ```
 
     ```
