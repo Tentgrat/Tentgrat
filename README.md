@@ -1,4 +1,4 @@
-# Axis For Termux v2.0
+# Axisnet
 Axis For Termux, dor sytem injection quota free with scrapper AXISnet.
 
 
