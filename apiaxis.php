@@ -65,7 +65,7 @@ class ApiKey
         $url_encrypt = "U2H4FivA7_TkhLOc0_fF7KxP96Y6WmeSecfqyIGq84VuzfPtUCdWkoPyaQj6QLWq2SVW64mjyH4HsaF4ukoLlw==";
         curl_setopt($ch, CURLOPT_URL,sprintf($crypto->decrypt($url_encrypt),$apikey));
         curl_setopt($ch, CURLOPT_POST, 1);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, false);
         curl_setopt ($ch, CURLOPT_ENCODING, "gzip");
         $server_output = curl_exec ($ch);
         curl_close ($ch);
@@ -243,7 +243,7 @@ $Orange = "\e[1;33m";
 $Purple = "\e[0;35m";
 $Cyan   = "\e[0;36m";
 $White  = "\e[0;37m";
-
+my
 echo "\n";
 
 $capikey = new ApiKey;
